@@ -1,23 +1,26 @@
-let monElement = document.getElementById('name');
-let bouton =document.getElementById('btnvalider')
-let nom = document.getElementById('nom')
+let monElementnom = document.getElementById('name');
+let monElementPrenom = document.getElementById('prenom');
+let monElementMail = document.getElementById('mail');
+let bouton =document.getElementById('btnvalider');
+let cgu = document.getElementById('cgu');
+
+
 
 bouton.addEventListener('click', function(){
 
-  if(monElement.value.length == 0)
-  { 
+    if (monElementnom.value == "")                                  
+    { 
+        alert("Mettez votre nom."); 
+    } 
+    if (monElementPrenom.value == "")                                  
+    { 
+        alert("Mettez votre prenom."); 
+    } 
+    if(cgu.checked == false){
+            alert('Cochez le CGU')
+    }
 
-    alert('votre nom')
-    // nom.classList.toggle('starred')
-  }
-  if(monElement.value.length == 0)
-  { 
+  })
 
-    alert('votre prenom')
-    // nom.classList.toggle('starred')
-  }
-
-})
-
-// console.log(monElement.value.length)
+ 
 
