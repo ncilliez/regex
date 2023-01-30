@@ -1,7 +1,12 @@
-#nom{
+#idnom, #idprenom, #email, #password{
     color: black;
 }
-
-#nom.starred{
+#idnom.rouge, #idprenom.rouge, #idemail.rouge, #idpassword.rouge{
     color: red;
+}
+#output{
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
 }
