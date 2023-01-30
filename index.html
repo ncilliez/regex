@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>regex</title>
+</head>
+<body>
+    
+<form>
+
+    <div>
+        <label id='nom' for="name">Nom :<span>*</span></label>
+        <input type="text" id="name" name="user_name">   
+    </div>
+
+    <div>
+        <label for="name">Prénom :<span>*</span></label>
+        <input type="text" id="name" name="user_name">
+    </div>
+
+    <div>
+        <label for="mail">e-mail&nbsp;:<span>*</span></label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+
+    <!-- <div>
+        <label for="pass">Choisissez votre mot de passe :<span>*</span></label>
+        <input type="password" id="pass" name="password" minlength="8" required><span>(8 characters minimum)</span>
+    </div>
+
+    <div>
+        <label for="pass">Confirmez votre mot de passe:</label>
+        <input type="password" id="pass" name="password" minlength="8" required>
+    </div> -->
+
+    <div>
+        <label for="start">Votre date de Naissance:<span>*</span></label>
+        <input type="date" id="start" name="naissance" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+    </div>
+
+    <div>
+        <button id='btnvalider'>Envoyer le message</button>
+    </div>
+
+</form>
+
+<script src="app.js"></script>
+
+</body>
+</html>

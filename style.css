@@ -1,0 +1,7 @@
+#nom{
+    color: black;
+}
+
+#nom.starred{
+    color: red;
+}
